@@ -1,0 +1,96 @@
+body {
+  max-width: 1200px;
+  margin: 10px auto 200px;
+  padding: 0 5%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 5px 0 0 0;
+  height: 30px;
+}
+p {
+  margin: 10px 0 0 0;
+  font-size: 1.4rem;
+}
+h1 {
+  text-align: center;
+}
+
+.drop {
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ffefe4;
+}
+
+.built {
+  all: initial;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 0;
+  background-color: rgb(230, 72, 72);
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+  display: block;
+}
+.reset {
+  all: initial;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  background-color: rgb(72, 159, 230);
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+  display: block;
+}
+.custom {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  label {
+    background-color: #ececec;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  p {
+    width: 100%;
+  }
+  label {
+    margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  input {
+    width: initial;
+    height: initial;
+    margin: 0 5px 0 0;
+  }
+}
+.ex {
+  h2 {
+    margin: 40px 0 0 0;
+  }
+  p {
+    margin-top: 15px;
+  }
+}

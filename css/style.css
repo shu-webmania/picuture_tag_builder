@@ -1,0 +1,119 @@
+body {
+  max-width: 1200px;
+  margin: 10px auto 200px;
+  padding: 0 5%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 5px 0 0 0;
+  height: 30px;
+}
+
+p {
+  margin: 10px 0 0 0;
+  font-size: 1.4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.drop {
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ffefe4;
+}
+
+.built {
+  all: initial;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 0;
+  background-color: #e64848;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+  display: block;
+}
+
+.reset {
+  all: initial;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  background-color: #489fe6;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+  display: block;
+}
+
+.custom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.custom label {
+  background-color: #ececec;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 500px;
+}
+
+.box p {
+  width: 100%;
+}
+
+.box label {
+  margin: 0 20px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+
+.box input {
+  width: initial;
+  height: initial;
+  margin: 0 5px 0 0;
+}
+
+.ex h2 {
+  margin: 40px 0 0 0;
+}
+
+.ex p {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
